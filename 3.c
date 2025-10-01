@@ -2,7 +2,7 @@
 
 int main()
 {
-	printf("ÊäÈë-1»ò0»ò1\n");
+	printf("è¾“å…¥-1æˆ–0æˆ–1\n");
 	int a;
 	scanf("%d" , &a);
 		while (1)
@@ -21,9 +21,10 @@ int main()
 			}
 			else if (a != 1,a!=0,a!=-1)
 			{
-				printf("ÇëÊäÈë-1»ò0»ò1\n");
+				printf("è¯·è¾“å…¥-1æˆ–0æˆ–1\n");
 				scanf("%d", &a);
 			}
 		}
 	return 0;
+
 }
