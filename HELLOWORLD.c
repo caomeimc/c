@@ -2,7 +2,7 @@
 
 int main()
 {
-	printf("输入-1或0或1\n");
+	printf("-1,0,1\n");
 	int a;
 	scanf("%d" , &a);
 		while (1)
@@ -21,11 +21,12 @@ int main()
 			}
 			else if (a != 1,a!=0,a!=-1)
 			{
-				printf("请输入-1或0或1\n");
+				printf("-1,0,1\n");
 				scanf("%d", &a);
 			}
 		}
 	return 0;
 
 }
+
 
